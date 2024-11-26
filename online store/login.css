@@ -1,0 +1,78 @@
+body {
+    font-family: 'Vazir', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+    direction: rtl;
+    text-align: center;
+}
+
+header {
+    background-color: #ff6347;
+    color: #fff;
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+.error-content {
+    background-color: #fff;
+    padding: 3em;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    max-width: 600px;
+    text-align: center;
+}
+
+.error-content h1 {
+    font-size: 4em;
+    color: #ff6347;
+    margin-bottom: 0.5em;
+}
+
+.error-content h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 1em;
+}
+
+.error-content p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 2em;
+}
+
+.back-home {
+    display: inline-block;
+    padding: 0.8em 2em;
+    color: #fff;
+    background-color: #4CAF50;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.back-home:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    margin-top: 2em;
+}
